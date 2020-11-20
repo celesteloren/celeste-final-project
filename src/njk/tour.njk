@@ -1,0 +1,15 @@
+{% extends '_templates/base.njk' %}
+
+{% block content %}
+<div class="container">
+  <h1>UK Tour 2021</h1>
+    {% for tour in queen.tour2021%}
+      <li>
+        <span class="date">{{ tour.date}}</span> 
+        <span class="location">{{ tour.city }}</span>
+        <span class="venue">{{ tour.venue }}</span>
+      </span>
+      </li>
+    {% endfor %}
+</div>
+{% endblock %}

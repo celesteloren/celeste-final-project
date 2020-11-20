@@ -1,0 +1,15 @@
+{% extends '_templates/base.njk' %}
+
+{% block content %}
+<article class="container">
+    {% for disc in queen.discography %}
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+      <img src="img/discs/{{ disc.image }}" class="card-img-top" alt="..."> 
+      <div class="card-body">
+        <h1 class="card-title">{{ disc.title }}</h1>
+        <h2 class="card-text">{{ disc.year }}</h2>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}
