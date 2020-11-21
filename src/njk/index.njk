@@ -5,11 +5,14 @@
 {% include "_includes/jumbotron.njk" %}
 
 <div class="container">
-  <h1>About Queen</h1>
-  <p>Queen formed in 1971 and in 1973 signed their first recording contract for EMI. That same year they released their first album, entitled Queen, and had their first major UK tour. In 1974 the band released Queen II and made their first UK headlining tour. They made their first US tour, and in November released Sheer Heart Attack which was a hit on both sides of the Atlantic.</p>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/eH5aH2F4BaM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/ybkJs4FnKPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      <h1>About Queen</h1>
+      <p>Queen formed in 1971 and in 1973 signed their first recording contract for EMI. That same year they released their first album, entitled Queen, and had their first major UK tour. In 1974 the band released Queen II and made their first UK headlining tour. They made their first US tour, and in November released Sheer Heart Attack which was a hit on both sides of the Atlantic.</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/eH5aH2F4BaM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ybkJs4FnKPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
   <div class="row">
   {% for member in queen.members %}
     <div class="col-sm-3">
