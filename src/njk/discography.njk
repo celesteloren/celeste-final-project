@@ -1,16 +1,22 @@
 {% extends '_templates/base.njk' %}
 
 {% block content %}
+
+{% include "_includes/nav.njk" %}
+
 <article class="container">
-    {% for disc in queen.discography %}
-  <div class="row">
-    <div class="col-md-8 offset-md-2">
-      <div class="card" style="width: 18rem;">
-        <img src="img/discs/{{ disc.image }}" class="card-img-top" alt="..."> 
-        <div class="card-body">
-          <h1 class="card-title">{{ disc.title }}</h1>
-          <h2 class="card-text">{{ disc.year }}</h2>
-      </div>
-    {% endfor %}
+<h1>Queen's Discography</h1>
+<div class="row">
+{% for disc in queen.discography %}
+  <div class="col-sm-6 col-lg-4 mb-2">
+    <div class="card">
+    <img class="card-img-top" src="../img/discs/{{ disc.image }}" alt="Queen Album">
+    <div class="card-body">
+      <h5 class="card-title">{{ disc.title }}</h5>
+      <p class="card-text">{{ disc.year }}</p>
+    </div>
   </div>
+</div>
+{% endfor %}
+</div>
 {% endblock %}

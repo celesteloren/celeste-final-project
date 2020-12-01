@@ -10,8 +10,15 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  
+
+<div id="header">
+  <img class="img-responsive center-block" width="auto" height="30px" src="../img/queen-logo-white.png" alt="band queen">
+</div>
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: pink">
   <a class="navbar-brand" href="index.html">Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -19,7 +26,7 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown">Queen</a> 
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"><img src="../img/Queen-logo-black.png" height="20px"></a> 
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             
             <a class="dropdown-item" href="queen/freddie-mercury.html">Freddie Mercury</a>
@@ -41,11 +48,9 @@
   </div>
 </nav>
 
-  
-
-<div class="jumbotron banner text-center">
-  <h1>Queen</h1>
-  <p>Something about how cool they are.</p>
+<div class="jumbotron" style="background-image: url(../img/colorful-queen.jpg); background-size: auto 100%;">
+  <div class="container for-about">
+  </div>
 </div>
 
 <div class="container">
@@ -53,104 +58,70 @@
     <div class="col-md-8 offset-md-2">
       <h1>About Queen</h1>
       <p>Queen formed in 1971 and in 1973 signed their first recording contract for EMI. That same year they released their first album, entitled Queen, and had their first major UK tour. In 1974 the band released Queen II and made their first UK headlining tour. They made their first US tour, and in November released Sheer Heart Attack which was a hit on both sides of the Atlantic.</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/eH5aH2F4BaM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/ybkJs4FnKPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <div>
+    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/eH5aH2F4BaM' frameborder='0' allowfullscreen></iframe>
+    </div>
+  <div>
+    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/ybkJs4FnKPM' frameborder='0' allowfullscreen></iframe></div>
     </div>
   </div>
+
+  <div class="the-band">
+  <h1>The Band</h1>
   <div class="row">
-  
-    <div class="col-sm-3">
-      <h3><a href="queen/freddie-mercury.html">Freddie Mercury</a></h3>
+    
+    <div class="card text-white bg-danger col-md-6 col-lg-3">
+      <div class="card-header"><h3><a href="queen/freddie-mercury.html">Freddie Mercury</a></h3></div>
+      <h5 class="card-title"><img src="img/members/freddie-mercury-bw.jpg" alt class="img-fluid"></h5>
     </div>
-  
-    <div class="col-sm-3">
-      <h3><a href="queen/brian-may.html">Brian May</a></h3>
+    
+    <div class="card text-white bg-danger col-md-6 col-lg-3">
+      <div class="card-header"><h3><a href="queen/brian-may.html">Brian May</a></h3></div>
+      <h5 class="card-title"><img src="img/members/brian-may-bw.jpg" alt class="img-fluid"></h5>
     </div>
-  
-    <div class="col-sm-3">
-      <h3><a href="queen/roger-taylor.html">Roger Taylor</a></h3>
+    
+    <div class="card text-white bg-danger col-md-6 col-lg-3">
+      <div class="card-header"><h3><a href="queen/roger-taylor.html">Roger Taylor</a></h3></div>
+      <h5 class="card-title"><img src="img/members/roger-taylor-bw.jpg" alt class="img-fluid"></h5>
     </div>
-  
-    <div class="col-sm-3">
-      <h3><a href="queen/john-deacon.html">John Deacon</a></h3>
+    
+    <div class="card text-white bg-danger col-md-6 col-lg-3">
+      <div class="card-header"><h3><a href="queen/john-deacon.html">John Deacon</a></h3></div>
+      <h5 class="card-title"><img src="img/members/john-deacon-bw.jpg" alt class="img-fluid"></h5>
     </div>
-  
+    
+    <div class="button">
+    <button type="button" class="btn btn-secondary btn-lg btn-light"> <a href="discography.html">Queen's Discography</a></button>
+  </div>
 </div>
-  <div class="col-sm-3">
-  
-    <div class="row">
-    <h3><a href="discography.html">Queen</a></h3>
-  </div>
-  
-    <div class="row">
-    <h3><a href="discography.html">Queen II</a></h3>
-  </div>
-  
-    <div class="row">
-    <h3><a href="discography.html">Sheer Heart Attack</a></h3>
-  </div>
-  
-    <div class="row">
-    <h3><a href="discography.html">A Night at the Opera</a></h3>
-  </div>
-  
-    <div class="row">
-    <h3><a href="discography.html">A Day at the Races</a></h3>
-  </div>
-  
-    <div class="row">
-    <h3><a href="discography.html">News of the World</a></h3>
-  </div>
-  
-    <div class="row">
-    <h3><a href="discography.html">Jazz</a></h3>
-  </div>
-  
-    <div class="row">
-    <h3><a href="discography.html">The Game</a></h3>
-  </div>
-  
-    <div class="row">
-    <h3><a href="discography.html">Flash Gordon (Original Soundtrack)</a></h3>
-  </div>
-  
-    <div class="row">
-    <h3><a href="discography.html">Hot Space</a></h3>
-  </div>
-  
-    <div class="row">
-    <h3><a href="discography.html">The Works</a></h3>
-  </div>
-  
-    <div class="row">
-    <h3><a href="discography.html">A Kind of Magic</a></h3>
-  </div>
-  
-    <div class="row">
-    <h3><a href="discography.html">The Miracle</a></h3>
-  </div>
-  
-    <div class="row">
-    <h3><a href="discography.html">Innuendo</a></h3>
-  </div>
-  
-    <div class="row">
-    <h3><a href="discography.html">Made in Heaven</a></h3>
-  </div>
-  
-  <div id="social">
-    <a href="https://www.facebook.com/Queen/" target="_blank" title="Queen on Facebook">
-      <i class="fab fa-facebook-f" aria-hidden="true">Facebook<i></a>
-      <a href="https://twitter.com/QueenWillRock?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" title="Queen on Twitter">Twitter</a>
-      <a href="https://www.instagram.com/officialqueenmusic/" title="Queen on Instagram">Instagram</a>
-  </div>
 
 
   <footer>
-<p id="legal" class="center-block text-center">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </div>
+  <div class="col-xs-12 text-center">
+    <div class="social-bar">
+      <a href="https://www.facebook.com/Queen/" target="_blank" title="Queen on Facebook">
+        <i class="fa fa-facebook">
+        </i>
+      </a>
+      <a href="https://twitter.com/QueenWillRock?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" title="Queen on Twitter">
+        <i class="fa fa-twitter">
+        </i>
+      </a>
+      <a href="https://www.instagram.com/officialqueenmusic/" title="Queen on Instagram">
+        <i class="fa fa-instagram">
+        </i>
+      </a>
+    </div>
+  </div>
+  <p id="legal" class="center-block text-center">
   <small>&copy; <span class="copyright-year"></span>
   A class project by Celeste Ramirez.
-</p>
+  </p>
 </footer>
 
 
