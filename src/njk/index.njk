@@ -25,12 +25,14 @@
   <div class="row">
     {% for member in queen.members %}
     <div class="card text-white bg-danger col-md-6 col-lg-3">
-      <div class="card-header"><h3><a href="queen/{{ member.slug }}.html">{{ member.name }}</a></h3></div>
+      <div class="card-header"><h3><button type="button" class="btn btn-secondary btn-lg btn-light"><a href="queen/{{ member.slug }}.html">{{ member.name }}</a></h3></button></div>
       <h5 class="card-title"><img src="img/members/{{ member.slug }}-bw.jpg" alt class="img-fluid"></h5>
     </div>
     {% endfor %}
+    <div class="container">
     <div class="button">
-    <button type="button" class="btn btn-secondary btn-lg btn-light"> <a href="discography.html">Queen's Discography</a></button>
+    <button type="button" class="btn btn-secondary btn-lg btn-light"><a href="discography.html">Queen's Discography</a></button>
   </div>
 </div>
+
 {% endblock %}
