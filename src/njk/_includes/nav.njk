@@ -9,17 +9,17 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"><img src="{{ relative_path }}img/Queen-logo-black.png" height="20px"></a> 
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"><img src="{{ relative_path }}img/queen-logo-black.png" height="20px"></a> 
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             {% for member in queen.members %}
             <a class="dropdown-item" href="{{ relative_path }}queen/{{ member.slug}}.html">{{ member.name }}</a>
             {% endfor %}
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{relative_path}}tour.html">Tour</a>
+        <a class="nav-link" href="{{ relative_path }}tour.html">Tour</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{relative_path}}discography.html">Discography</a>
+        <a class="nav-link" href="{{ relative_path }}discography.html">Discography</a>
       </li>
     </ul>
   </div>
